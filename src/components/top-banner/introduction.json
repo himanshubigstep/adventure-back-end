@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_top_banner_introductions",
+  "info": {
+    "displayName": "Introduction",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "cta_1": {
+      "type": "string"
+    },
+    "cta_1_link": {
+      "type": "text"
+    },
+    "cta_2": {
+      "type": "string"
+    },
+    "cta_2_link": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_faqs_frequently_askeds",
+  "info": {
+    "displayName": "frequently_asked"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "content": {
+      "type": "text"
+    }
+  }
+}

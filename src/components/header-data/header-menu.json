@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_header_data_header_menus",
+  "info": {
+    "displayName": "header_menu"
+  },
+  "options": {},
+  "attributes": {
+    "item_name": {
+      "type": "string"
+    },
+    "item_link": {
+      "type": "text"
+    },
+    "item_icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "submenu": {
+      "type": "json"
+    }
+  }
+}

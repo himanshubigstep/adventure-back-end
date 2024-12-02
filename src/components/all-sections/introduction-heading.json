@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_all_sections_introduction_headings",
+  "info": {
+    "displayName": "Introduction-heading"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    },
+    "background_image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "button": {
+      "type": "string"
+    },
+    "button_link": {
+      "type": "text"
+    }
+  }
+}
