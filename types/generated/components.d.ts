@@ -19,11 +19,13 @@ export interface AllSectionsIntroductionHeading extends Struct.ComponentSchema {
 export interface FaqsFrequentlyAsked extends Struct.ComponentSchema {
   collectionName: 'components_faqs_frequently_askeds';
   info: {
+    description: '';
     displayName: 'frequently_asked';
   };
   attributes: {
     content: Schema.Attribute.Text;
     heading: Schema.Attribute.Text;
+    list_content: Schema.Attribute.JSON;
   };
 }
 
